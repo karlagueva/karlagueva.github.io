@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Personal</title>
+    <link rel="stylesheet" href="estilos.css"> <!-- Link al archivo de estilos externos -->
+    <script src="script.js" defer></script> <!-- Link al archivo de JavaScript externo -->
+</head>
+<body>
+
+    <!-- Barra de navegación con los iconos centrados -->
+    <nav>
+        <ul>
+            <li><a href="#" class="menu inicio" data-title="Inicio" onclick="mostrarInicio()">
+                <span><span>Inicio</span></span>
+            </a></li>
+
+            <li><a href="#" class="menu proyecto" data-title="Proyectos" onclick="mostrarProyectos()">
+                <span><span>Proyectos</span></span>
+            </a></li>
+
+            <li><a href="#" class="menu habilidades" data-title="Habilidades" onclick="mostrarHabilidades()">
+                <span><span>Habilidades</span></span>
+            </a></li>
+
+            <li><a href="#" class="menu contacto" data-title="Contacto" onclick="mostrarContacto()">
+                <span><span>Contacto</span></span>
+            </a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido de Inicio -->
+    <div class="container" id="inicioContainer">
+        <div>
+            <img src="karla.jpeg.jpeg"> 
+            <h1>Karla Guevara</h1>
+        </div>
+        <div class="texto">
+            <p>Me presento, soy Karla, tengo 19 años. Estudio Lic. en Desarrollo de Software en la universidad de la IEU. Me encanta todo lo relacionado con la tecnología y la informática. Desde la primaria, he estudiado informática y robótica. 
+            <br><br>
+            Aquí presento todos mis proyectos y habilidades que he aprendido y los que desarrollaré. La verdad es que disfruto mucho esta carrera, aunque a veces es complicada, pero siempre interesante. Al final de este portafolio, dejaré mi información de contacto, como mi correo, número de teléfono y redes sociales.</p>
+        </div>
+    </div>
+
+    <!-- Contenido de Proyectos -->
+    <div class="container" id="proyectosContainer">
+        <div class="texto">
+            <h1> Proyectos</h1>
+            <h2> Gestor de Tareas</h2>
+            <p>Aquí presento algunos de los proyectos en los que he trabajado a lo largo de mi carrera. Cada uno de ellos refleja las habilidades y conocimientos adquiridos, así como los retos que he superado.
+            <br><br>
+            -Este proyecto  permite gestionar tareas con diferentes prioridades y duraciones, como tareas importantes, tareas pendientes, moderadas, pocos importantes, conteniendo un formulario para ingresar tareas, y tres tablas para visualizar las tareas según su prioridad y duración.
+            <br>
+            </p>
+        </div>
+        <div>
+            <img src="proyectos.jpg" > 
+        </div>
+    </div>
+
+    <!-- Contenido de Habilidades -->
+    <div class="container" id="habilidadesContainer">
+        <div class="texto">
+            <h1> Habilidades</h1>
+            <p>Estas son algunas de las habilidades técnicas y blandas que he desarrollado a lo largo de mi trayectoria académica y profesional.
+                Aprendi a ocupar el lenguaje C, C++, html, java, que son los lenguajes de programación básicos de utilizar, que nos ayudan a programar, Permite la automatización de tareas y procesos, y estas se pueden ocupar en el trabajo, escuela, medicina y pueden estar en varías areas, como inteligencia artificial, robótica, automatización, entre otras.
+            </p>
+        </div>
+        <div>
+            <img src="habilidades.jpg" > 
+        </div>
+    </div>
+
+    <!-- Contenido de Contacto -->
+    <div class="container" id="contactoContainer">
+        <div class="texto">
+            <h1>Contacto</h1>
+            <br><br>
+            - Correo: karlajoselineg@gmail.com
+            <br>
+            - Teléfono: 222-83-18-06
+            <br>
+            - Redes Sociales: 
+            <br> 
+            Ig: https://www.instagram.com/karlx.guevara?igsh=MWoyaTN1c3ZncHllaQ%3D%3D&utm_source=qr
+            <br>
+            Facebook: https://www.facebook.com/karla.joseline.1232?mibextid=JRoKGi
+            </p>
+        </div>
+        <div>
+            <img src="contacto.jpg" > <!-- Cambia la imagen de contacto -->
+        </div>
+    </div>
+
+</body>
+</html>

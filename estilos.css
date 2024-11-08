@@ -1,0 +1,61 @@
+/* Estilos para las secciones */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+    height: 100vh; /* Ocupa toda la pantalla */
+    display: none; /* Ocultar por defecto */
+    color: white; /* Cambia el color del texto a blanco */
+}
+
+.container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 20px; /* Cambiar el margen para la imagen a la izquierda */
+}
+
+.container .texto {
+    max-width: 500px;
+    text-align: left; /* Alineamos el texto a la izquierda */
+    margin-top: auto; /* Esto empuja el texto hacia abajo */
+}
+
+.container h1 {
+    margin: 0;
+}
+
+.container p {
+    font-size: 16px;
+    color: #ddd; /* Color del texto más claro para contraste */
+}
+
+/* Aseguramos que el contenedor de inicio esté visible por defecto */
+#inicioContainer {
+    display: flex;
+}
+
+nav {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+}
+
+li {
+    margin: 0 20px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #333;
+}
